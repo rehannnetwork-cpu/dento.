@@ -1,3 +1,4 @@
+import clinicInterior from "@/assets/clinic-interior.jpg";
 import { Navbar } from "@/components/Navbar";
 import { ServiceCard } from "@/components/ServiceCard";
 import { AppointmentForm } from "@/components/AppointmentForm";
@@ -75,10 +76,9 @@ export default function Home() {
           >
             {/* Hero Image */}
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-teal-900/10 border-4 border-white">
-              {/* Unsplash: Friendly female dentist smiling in clinic */}
               <img 
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2068&auto=format&fit=crop" 
-                alt="Friendly Dentist at Dent-O-Care" 
+                src={clinicInterior} 
+                alt="Modern Clinic Interior" 
                 className="w-full h-auto object-cover aspect-[4/3]"
               />
               
