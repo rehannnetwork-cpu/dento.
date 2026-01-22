@@ -17,6 +17,7 @@ import {
   Quote
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Home() {
   return (
