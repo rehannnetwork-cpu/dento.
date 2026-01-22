@@ -1,4 +1,5 @@
 import clinicInterior from "@/assets/clinic-interior.jpg";
+import clinicReception from "@/assets/clinic-reception.jpg";
 import { Navbar } from "@/components/Navbar";
 import { ServiceCard } from "@/components/ServiceCard";
 import { AppointmentForm } from "@/components/AppointmentForm";
@@ -118,11 +119,10 @@ export default function Home() {
                viewport={{ once: true }}
                className="order-2 lg:order-1 relative"
             >
-              {/* Unsplash: Modern dental equipment or clean clinic interior */}
               <div className="rounded-3xl overflow-hidden shadow-2xl shadow-slate-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2053&auto=format&fit=crop" 
-                  alt="Modern Dental Equipment" 
+                  src={clinicReception} 
+                  alt="Clinic Reception" 
                   className="w-full h-full object-cover"
                 />
               </div>
